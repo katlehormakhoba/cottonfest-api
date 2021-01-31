@@ -1,0 +1,40 @@
+{
+  "name": "cottonfestjs",
+  "version": "1.0.0",
+  "description": "API for online clothing store",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "start:dev": "nodemon server",
+    "start:prod": "SET NODE_ENV=production && nodemon server"
+  },
+  "author": "Katleho R. Makhoba",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.23.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.0.0",
+    "express-rate-limit": "^5.1.3",
+    "helmet": "^4.1.1",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.9",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "multer-storage-cloudinary": "^4.0.0",
+    "nodemailer": "^6.4.14",
+    "nodemon": "^2.0.5",
+    "pug": "^3.0.0",
+    "sharp": "^0.26.2",
+    "stripe": "^8.121.0",
+    "validator": "^13.1.17",
+    "xss-clean": "^0.1.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
